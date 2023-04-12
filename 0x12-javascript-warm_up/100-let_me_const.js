@@ -1,3 +1,3 @@
 #!/usr/bin/node:w
-let myVar = 333;
-module.exports = myVar
+const myVar = 333;
+module.exports = myVar;
