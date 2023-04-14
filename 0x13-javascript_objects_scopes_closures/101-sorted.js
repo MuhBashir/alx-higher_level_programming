@@ -8,4 +8,4 @@ for (const key in dict) {
     newDictionaryList[dict[key]].push(key);
   }
 }
-console.log(newDictionaryList);                     
+console.log(newDictionaryList);
