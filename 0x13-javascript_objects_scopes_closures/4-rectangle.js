@@ -15,13 +15,13 @@ module.exports = class Rectangle {
   }
 
   rotate () {
-    let exchange = this.width
+    const exchange = this.width;
     this.width = this.height;
     this.height = exchange;
   }
 
   double () {
-    this.width *=2;
+    this.width *= 2;
     this.height *= 2;
   }
 };
