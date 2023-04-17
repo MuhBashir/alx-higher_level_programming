@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This scripts list all the states starting with the N from the database hbtn_0e_0_usa
+This scripts list all the states starting with the N from the database hbtn_0e_0_usa and return them as a tuple.
 """
 if __name__ == "__main__":
     """
