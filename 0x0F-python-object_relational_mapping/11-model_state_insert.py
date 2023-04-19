@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-This script adds Luciana states to the State 
-objects found from the database `hbtn_0e_6_usa`.
+This script adds Luciana states 
+to the State objects found 
+from the database `hbtn_0e_6_usa`.
 """
 
 from model_state import Base, State
