@@ -23,5 +23,5 @@ if __name__ == "__main__":
     session.add(add_state)
     session.commit()
 
-    print(result.id)
+    print(add_state.id)
     session.close()
