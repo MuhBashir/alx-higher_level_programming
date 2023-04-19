@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
 This script return the id of the first 
-State objects else Not found from the 
-database `hbtn_0e_6_usa`.
+State objects else Not found from the data
+base `hbtn_0e_6_usa`.
 """
 
 from model_state import Base, State
