@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This script lists all State objects
+This script join states and city table together
+and display the result State objects
 from the database `hbtn_0e_6_usa`.
 """
 
