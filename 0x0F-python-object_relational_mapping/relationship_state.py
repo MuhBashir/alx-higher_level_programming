@@ -1,6 +1,3 @@
-
- 
-
 #!/usr/bin/python3
 """
 This script defines a State class and
@@ -22,7 +19,8 @@ class State(Base):
         name: The State name of the class
         cities: The Cities belongs to State
     """
-    __tablename__ = 'states'
+
+    __tablename__ = "states"
 
     id = Column(Integer, primary_key=True)
     name = Column(String(128), nullable=False)
