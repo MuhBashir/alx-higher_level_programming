@@ -10,8 +10,7 @@ from sqlalchemy.orm import sessionmaker
 
 
 if __name__ == "__main__":
-    engine = create_engine(
-        "mysql+mysqldb://{argv[1]}:{argv[2]}@localhost:3306/{argv[3]}",
+    engine = create_engine(f"mysql+mysqldb://{argv[1]}:{argv[2]}@localhost:3306/{argv[3]}",
         pool_pre_ping=True,
     )
 
